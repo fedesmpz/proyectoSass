@@ -1,0 +1,36 @@
+$normal: 'Boogaloo', cursive;
+$comica: 'Henny Penny', cursive;
+
+.lista{
+    display: inline-block;
+    padding: 10px;
+    
+    }
+    
+.centrado{
+        text-align: center;
+    }
+    
+.titulo{
+        font-size: 3rem;
+    }
+    
+.letraComica{
+        font-family: $comica
+    }
+    
+.letraTexto{
+        font-family: $normal
+    }
+    
+.noDecoracion{
+        text-decoration: none;
+        color: black;
+    }
+
+.tituloGrande{
+    text-decoration: none;
+    color: black;
+    font-family: $normal;
+    font-size: x-large;
+    }

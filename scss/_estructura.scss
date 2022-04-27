@@ -1,0 +1,36 @@
+img{
+    margin: 10px;
+}
+.block{
+    display: block;
+}
+.contacto{
+    /*    width: 800px; */
+       text-align: center;
+       grid-area: contacto;
+   }
+   
+.nosotros{
+   /*     width: 800px; */
+       text-align: center;
+       grid-area: nosotros;
+   }
+
+.suscripcion{
+    /*    width: 250px; */
+       text-align: center;
+       grid-area: suscripcion;
+       overflow: auto;
+   }
+
+.tamanio{
+    height: 1680px;
+    overflow: auto;
+}
+
+.center{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
