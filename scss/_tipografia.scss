@@ -15,22 +15,33 @@ $comica: 'Henny Penny', cursive;
         font-size: 3rem;
     }
     
-.letraComica{
-        font-family: $comica
-    }
-    
-.letraTexto{
-        font-family: $normal
-    }
-    
+@mixin mixColor ($color) {
+    color: $color;
+}
+
+.sinDecoracion{
+    text-decoration: none;
+}
+
 .noDecoracion{
-        text-decoration: none;
-        color: black;
+        @include mixColor(black);
+        @extend .sinDecoracion;
+
     }
 
 .tituloGrande{
-    text-decoration: none;
-    color: black;
+    @include mixColor(black);
+    @extend .sinDecoracion;
     font-family: $normal;
     font-size: x-large;
+    }
+
+.letraComica{
+    font-family: $comica;
+    @include mixColor(black);
+}
+    
+.letraTexto{
+        font-family: $normal;
+        @include mixColor(black);
     }

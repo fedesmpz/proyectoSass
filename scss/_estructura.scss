@@ -1,25 +1,30 @@
 img{
     margin: 10px;
 }
+
+.imagen{
+    @extend img;
+    max-width: 200px;
+}
+
 .block{
     display: block;
 }
+
+.centrado{
+    text-align: center;
+}
+
 .contacto{
-    /*    width: 800px; */
-       text-align: center;
-       grid-area: contacto;
+    @extend .centrado;
    }
    
 .nosotros{
-   /*     width: 800px; */
-       text-align: center;
-       grid-area: nosotros;
+    @extend .centrado;
    }
 
 .suscripcion{
-    /*    width: 250px; */
        text-align: center;
-       grid-area: suscripcion;
        overflow: auto;
    }
 
