@@ -1,3 +1,4 @@
+
 .Las imágenes ya estaban optoimizadas con anterioridad, y con el nombre que hacía referencia a cada juego de mesa
 .Se agregó a cada página la description y los keywords
 .Se optimizaron los títulos de cáda página
